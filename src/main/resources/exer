@@ -9,4 +9,6 @@ jpackage \
 --description "In Dateien am Zeilenanfang eine Maske suchen und ersetzen." \
 --copyright "Copyright © 2024 BlueFogDev" \
 --vendor "BlueFogDev" \
---dest out
+--dest out \
+--java-options "--add-opens javafx.graphics/javafx.scene=ALL-UNNAMED" \
+--win-shortcut
