@@ -1,0 +1,12 @@
+jpackage \
+--input target \
+--name MaskOverride \
+--main-jar maskoverride-1.0-SNAPSHOT.jar \
+--main-class eu.bluefogdev.maskoverride.MOApplication \
+--type exe \
+--icon src/main/resources/fxml/icon.ico \
+--app-version 1.0 \
+--description "In Dateien am Zeilenanfang eine Maske suchen und ersetzen." \
+--copyright "Copyright © 2024 BlueFogDev" \
+--vendor "BlueFogDev" \
+--dest out
