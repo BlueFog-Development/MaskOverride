@@ -15,6 +15,7 @@ import java.util.List;
 import java.util.prefs.Preferences;
 
 public class MoController {
+    
     private static final String LAST_DIRECTORY_KEY = "lastDirectory";
     private final Preferences preferences = Preferences.userNodeForPackage(MoController.class);
 

@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.util.Objects;
 
 public class MOApplication extends Application {
+    
     public static void main(String[] args) {
         launch();
     }
