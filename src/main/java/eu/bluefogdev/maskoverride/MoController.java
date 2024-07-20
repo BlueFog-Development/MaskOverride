@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.prefs.Preferences;
 
 public class MoController {
-    
+
     private static final String LAST_DIRECTORY_KEY = "lastDirectory";
     private final Preferences preferences = Preferences.userNodeForPackage(MoController.class);
 
@@ -38,7 +38,7 @@ public class MoController {
     private void initialize() {
         selectFileButton.setOnAction(event -> selectFile());
         processFileButton.setOnAction(event -> processFile());
-        cancelButton.setOnAction(event -> System.exit(0));
+        cancelButton.setOnAction(event -> stage.close());
     }
 
     private void selectFile() {
