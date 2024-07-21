@@ -56,10 +56,9 @@
                 <version>0.0.8</version>
                 <executions>
                     <execution>
-                        <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>eu.bluefogdev.maskoverride/eu.bluefogdev.maskoverride.MOApplication</mainClass>
+                            <mainClass>eu.bluefogdev.maskoverride.MOApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
