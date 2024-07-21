@@ -1,7 +1,7 @@
 jpackage \
 --input target \
 --name MaskOverride \
---main-jar maskoverride-1.0-SNAPSHOT.jar \
+--main-jar MaskOverride-1.0-SNAPSHOT-jar-with-dependencies.jar \
 --main-class eu.bluefogdev.maskoverride.MOApplication \
 --type exe \
 --icon src/main/resources/fxml/icon.ico \
